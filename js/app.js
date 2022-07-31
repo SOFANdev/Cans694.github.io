@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-type", {
-    strings: ["Welcome to my website.", "FUN", "Enjoy."],
+    strings: ["Welcome to my website.", "Enjoy."],
     typeSpeed: 150,
     backSpeed: 50,
     loop: true

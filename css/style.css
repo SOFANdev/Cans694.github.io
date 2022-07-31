@@ -92,26 +92,21 @@ nav ul li {
     font-weight: 500;
 }
 
-.RULES, .card {
-    background-color: #000;
-}
-
-#rules {
-    height: auto;
+#info {
+    height: 60vh;
     width: 100%;
     background-color: #212529;
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    flex-direction: column;
+    display: grid;
+    place-items: center;
+    align-content: center;
 }
 
-#rules h1 {
+#info h1 {
     font-size: 2.5rem;
 }
 
-#rules p {
-    padding: 0 2rem;
+#info h2 {
+    font-size: 1.5rem;
 }
 
 .btn {
