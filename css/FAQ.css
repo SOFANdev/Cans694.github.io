@@ -293,7 +293,7 @@ footer {
 .footer-bottom {
     background: #000;
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 0 1px 0;
     text-align: center;
 }
 

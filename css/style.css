@@ -172,13 +172,13 @@ footer {
     font-size: 14px;
 }
 
-.socials {
+/* .socials {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
-}
+} */
 
 .socials li {
     margin: 0 10px;
@@ -201,7 +201,7 @@ footer {
 .footer-bottom {
     background: #000;
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 0 1px 0;
     text-align: center;
 }
 
