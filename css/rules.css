@@ -92,6 +92,10 @@ nav ul li {
     font-weight: 500;
 }
 
+.RULES {
+    padding: 15px;
+}
+
 .RULES, .card {
     background-color: #000;
 }
