@@ -165,6 +165,9 @@ nav ul li {
     /* text-decoration: underline 4px; */
 }
 
+.faq {
+    padding: 15px;
+}
 
 .faq-body {
     background-color: #212529;
