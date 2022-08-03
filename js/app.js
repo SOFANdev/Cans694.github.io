@@ -17,3 +17,4 @@ var typed = new Typed(".auto-type", {
 //         cursor.classList.remove("expand");
 //     }, 300);
 // })
+

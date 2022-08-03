@@ -13,9 +13,9 @@
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-<!-- <link rel="shortcut icon" type="x-icon" href="./images/icon_website.png"> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <!-- <link rel="shortcut icon" type="x-icon" href="./images/icon_website.png"> -->
   <link rel="stylesheet" href="./css/FAQ.css">
 
 
@@ -35,17 +35,19 @@
           </button>
           <div class="collapse navbar-collapse" id="coll">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
+              <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
                   Server Info
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="Rules.html">Rules</a>
-                  <a class="dropdown-item" href="FAQ.html">FAQ</a>
+                  <a class="dropdown-item text-white href=" FAQ.html">FAQ</a>
                 </div>
               </li>
-              <li class="nav-item"><a class="btn btn-primary btn-sm" href="Discord_Server.html" target="_blank">Join Server</a>
+              <li class="nav-item"><a class="btn btn-primary btn-sm" href="Discord_Server.html" target="_blank">Join
+                  Server</a>
               </li>
             </ul>
           </div>
@@ -71,51 +73,33 @@
     </div>
   </section>
   <section id="faq">
-
-    <div class="faq-container">
-      <h1 class="title">Frequently Asked Questions</h1>
-
-      <div class="questions-container">
-          <div class="question">
-              <button>
-                  <span>No body has aked questions. :(</span>
-                  <i class="fas fa-chevron-down d-arrow"></i>
+      <div class="faq-body" >
+        <div id="accordion">
+          <div class="card bg-dark">
+            <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="faq-btn text-white btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+                Nobody Has Asked Questions Yet.
               </button>
-              <p class="answer">No answer</p>
+            </h5>
           </div>
-  
-          <!-- <div class="question">
-              <button>
-                  <span>span>
-                  <i class="fas fa-chevron-down d-arrow"></i>
-              </button>
-              <p></p>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body text-white">
+            </div>
           </div>
-  
-          <div class="question">
-              <button>
-                  <span></span>
-                  <i class="fas fa-chevron-down d-arrow"></i>
-              </button>
-              <p></p>
-          </div>
-  
-          <div class="question">
-              <button>
-                  <span></span>
-                  <i class="fas fa-chevron-down d-arrow"></i>
-              </button>
-              <p></p>
-          </div> -->
+        </div>
       </div>
+    </div>
   </section>
   <footer>
     <div class="footer-content">
       <h3>Cans694
       </h3>
-      <p>Hello, This is Cans694. This website is highly inspired by <a href="https://sounddrout.com" target="_blank">SOUNDDROUT'S WEBSITE</a> so check them out.</p>
+      <p>Hello, This is Cans694. This website is highly inspired by <a href="https://sounddrout.com"
+          target="_blank">SOUNDDROUT'S WEBSITE</a> so check them out.</p>
     </div>
-      <ul class="socials">
+    <ul class="socials">
       <!-- <li><a href="Discord_Server.html" target="_blank"><i class="fa-brands fa-discord"></i></a></li> -->
     </ul>
     </div>

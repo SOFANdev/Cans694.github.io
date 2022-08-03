@@ -166,55 +166,25 @@ nav ul li {
 }
 
 
-.questions-container{
-    max-width: 800px;
-    margin: 0 auto;
+.faq-body {
+    background-color: #212529;
+    padding: 50px;
 }
 
-.question{
-    border-bottom: 1px solid transparent;
+#accordion {
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
-.question button{
-    width: 100%;
-    background-color: #000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 15px;
-    border:none;
-    outline: none;
-    font-size: 22px;
-    color: #fff;
-    font-weight: 700;
-    cursor: pointer;
-}
-.question p{
-    color: #fff;
-    background-color: #282d33;
-    box-shadow: .5rem 2px .5rem rgba(0, 0, 0, .1);
-    font-size: 22px;
-    max-height: 0;
-    opacity: 0;
-    line-height: 1.5;
-    overflow: hidden;
-    transition: all 0.6s ease;
-    position: relative;
+.card {
+    color: #212529;
 }
 
-.d-arrow{
-    transition: transform 0.5s ease-in ;
-    color: #fff;
-}
-
-/*add this class when click*/
-.question p.show{
-    max-height: 20rem;
-    opacity: 1;
-    padding:15px 15px 15px 15px;
-}
-.question button .d-arrow.rotate{
-    transform: rotate(180deg);
+.card .faq-btn {
+    background-color: transparent;
+    transition: .3s ease-in-out;
+    border: none;
+    text-decoration: none;
 }
 
 .btn {
