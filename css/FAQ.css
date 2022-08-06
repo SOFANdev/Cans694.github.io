@@ -346,8 +346,12 @@ footer {
     width: 12px;
 }
 
+::-webkit-scrollbar-track {
+    background: #4d5761;
+}
+
 ::-webkit-scrollbar-thumb {
-    background: #282d33;
+    background: #464e58;
     border-radius: 6px;
 }
 
